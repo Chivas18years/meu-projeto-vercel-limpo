@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "dev": "next dev",
-  "build": "next build",
-  "start": "next start",
-  "lint": "next lint"
-},
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Chivas18years/meu-projeto-vercel-limpo.git"
@@ -21,7 +21,10 @@
   },
   "homepage": "https://github.com/Chivas18years/meu-projeto-vercel-limpo#readme",
   "dependencies": {
+    "@trpc/server": "^11.2.0",
     "next": "^15.3.3",
+    "next-auth": "^4.24.11",
+    "qrcode.react": "^4.2.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   }
