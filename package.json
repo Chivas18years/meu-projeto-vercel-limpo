@@ -1,0 +1,28 @@
+{
+  "name": "meu-projeto-vercel-limpo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "lint": "next lint"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chivas18years/meu-projeto-vercel-limpo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chivas18years/meu-projeto-vercel-limpo/issues"
+  },
+  "homepage": "https://github.com/Chivas18years/meu-projeto-vercel-limpo#readme",
+  "dependencies": {
+    "next": "^15.3.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
