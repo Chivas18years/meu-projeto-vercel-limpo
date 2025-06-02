@@ -21,11 +21,14 @@
   },
   "homepage": "https://github.com/Chivas18years/meu-projeto-vercel-limpo#readme",
   "dependencies": {
+    "@t3-oss/env-nextjs": "^0.13.6",
     "@trpc/server": "^11.2.0",
+    "drizzle-orm": "^0.44.1",
     "next": "^15.3.3",
     "next-auth": "^4.24.11",
     "qrcode.react": "^4.2.0",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "zod": "^3.25.49"
   }
 }
