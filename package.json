@@ -1,34 +1,22 @@
 {
   "name": "meu-projeto-vercel-limpo",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Chivas18years/meu-projeto-vercel-limpo.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Chivas18years/meu-projeto-vercel-limpo/issues"
-  },
-  "homepage": "https://github.com/Chivas18years/meu-projeto-vercel-limpo#readme",
   "dependencies": {
-    "@t3-oss/env-nextjs": "^0.13.6",
-    "@trpc/server": "^11.2.0",
-    "drizzle-orm": "^0.44.1",
-    "next": "^15.3.3",
-    "next-auth": "^4.24.11",
-    "qrcode.react": "^4.2.0",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
-    "zod": "^3.25.49"
+    "@t3-oss/env-nextjs": "^0.11.0",
+    "@trpc/server": "^10.45.2",
+    "drizzle-orm": "^0.30.0",
+    "next": "15.3.3",
+    "next-auth": "^4.24.7",
+    "qrcode.react": "^3.1.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "zod": "^3.23.0"
   }
 }
